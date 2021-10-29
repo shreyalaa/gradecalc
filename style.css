@@ -1,0 +1,47 @@
+.outer_div{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 40rem;
+    background-color: rgb(38, 52, 70);
+    color: white;
+    justify-content: space-between;
+    margin: auto;
+    padding: 2%;
+ 
+}
+
+.inner_div{
+    display: flex;
+    flex-direction: column;
+    width: 15rem;
+    border-left: 1px solid white;
+}
+.inner_div input{
+    background-color:rgb(38, 52, 70);
+    border: none;
+    border-bottom: 1px solid white;
+    width: 10rem;
+    margin: 2%;
+    outline: none;
+    color: white;
+}
+
+.inner_div button{
+    height: 2rem;
+    width: 10rem;
+    margin: auto;
+    margin-top: 4%;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+.inner_div button:hover{
+    background-color:rgb(102, 127, 163);
+    color: white;
+}
+
+.show_score{
+    display: none;
+}
